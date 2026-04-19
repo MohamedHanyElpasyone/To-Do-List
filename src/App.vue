@@ -10,5 +10,3 @@ import ThemeTogglerButton from './components/ThemeTogglerButton.vue';
     </section>
   </main>
 </template>
-
-<style scoped></style>
