@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
 </script>
-<!-- 828px (width) -->
 <template>
 <section class="mt-14 mb-14 flex gap-7">
     <input class="bg-white py-2 pr-30 pl-5 rounded-xl outline-none shadow-md dark:bg-[#364153] placeholder:text-[#A9A9A9]" type="text" placeholder="Type your task here..." name="adding-task-input">
