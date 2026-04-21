@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import ThemeTogglerButton from './components/ThemeTogglerButton.vue';
-import AddInput from './components/AddInput.vue';
-import TasksList from './components/TasksList.vue';
-import { onMounted } from 'vue';
-import twemoji from 'twemoji';
+import ThemeTogglerButton from './components/ThemeTogglerButton.vue'
+import AddInput from './components/AddInput.vue'
+import TasksList from './components/TasksList.vue'
+import { onMounted } from 'vue'
+import twemoji from 'twemoji'
 
 onMounted(() => {
   twemoji.parse(document.body, {
     folder: 'svg',
-    ext: '.svg'
-  });
-});
+    ext: '.svg',
+  })
+})
 </script>
 
 <template>
